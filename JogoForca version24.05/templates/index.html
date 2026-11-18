@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca - APS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="background-orb orb-1"></div>
+    <div class="background-orb orb-2"></div>
+
+    <main class="app-shell">
+        <section id="tela-categorias" class="screen active">
+            <div class="panel categories-panel">
+                <div class="categories-hero">
+                    <p class="categories-welcome">BEM-VINDO A</p>
+                    <h1><span class="title-forca">FORCA</span><span class="title-ultimate">ULTIMATE</span></h1>
+                </div>
+                <div class="section-head section-head-simple">
+                    <div>
+                        <p class="section-kicker">Escolha inicial</p>
+                        <h2>Selecione uma categoria</h2>
+                    </div>
+                </div>
+                <div id="lista-categorias" class="category-grid"></div>
+            </div>
+        </section>
+
+        <section id="tela-jogo" class="screen hidden">
+            <div class="panel game-topbar compact-topbar simple-topbar">
+                <button id="btn-voltar-menu" class="menu-back-button" type="button" aria-label="Voltar ao menu principal" title="Voltar ao menu principal">&#8592;</button>
+                <div class="topbar-info">
+                    <div class="topbar-chip">
+                        <span class="chip-label">Categoria</span>
+                        <strong id="categoria-label">-</strong>
+                    </div>
+                    <div class="topbar-chip">
+                        <span class="chip-label">Erros</span>
+                        <strong id="erros-label">0 / 6</strong>
+                    </div>
+                </div>
+
+                <div class="topbar-actions">
+                    <button id="btn-anjinho" class="power-button angel-button small-power">
+                        <span>👼</span>
+                        <span class="power-text">
+                            <strong>Anjinho</strong>
+                            <small id="power-angel-state" class="power-state ready">Disponível</small>
+                        </span>
+                    </button>
+                    <button id="btn-reiniciar" class="reset-button hidden">Nova rodada</button>
+                </div>
+            </div>
+
+            <div class="game-grid">
+                <section class="panel stage-panel">
+                    <div class="stage-head">
+                        <div>
+                            <p class="section-kicker">Partida</p>
+                            <h2>Forca</h2>
+                        </div>
+                    </div>
+
+                    <div id="event-banner" class="event-banner hidden"></div>
+
+                    <div id="forca-stage" class="forca-stage">
+                        <img id="forca-img" src="/static/img/forca_0.svg" alt="Estágio da forca">
+                    </div>
+                </section>
+
+                <section class="panel word-panel">
+                    <div class="word-head">
+                        <div>
+                            <p class="section-kicker">Objetivo</p>
+                            <h2>Descubra a palavra</h2>
+                        </div>
+                    </div>
+
+                    <div id="palavra-wrapper" class="palavra-wrapper">
+                        <div id="palavra-mascarada" class="palavra-track">_ _ _ _</div>
+                    </div>
+
+                    <div class="manual-guess-block simple-guess-block">
+                        <div class="manual-guess">
+                            <input type="text" id="input-palpite" placeholder="Digite uma letra ou arrisque a palavra inteira">
+                            <button id="btn-tentar">Enviar palpite</button>
+                        </div>
+                    </div>
+
+                    <div class="history-grid compact-history-grid">
+                        <div class="history-card">
+                            <span class="history-label">Erradas</span>
+                            <div id="letras-tentadas" class="letter-tags"><span class="tag-empty">Nenhuma</span></div>
+                        </div>
+                        <div class="history-card">
+                            <span class="history-label">Bloqueadas</span>
+                            <div id="letras-bloqueadas" class="letter-tags"><span class="tag-empty">Nenhuma</span></div>
+                        </div>
+                        <div class="history-card history-card-wide">
+                            <span class="history-label">Chutes completos</span>
+                            <div id="chutes-palavra" class="letter-tags"><span class="tag-empty">Nenhum</span></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="panel keyboard-panel">
+                <div class="keyboard-head">
+                    <div>
+                        <p class="section-kicker">Entrada opcional</p>
+                        <h2>Teclado visual</h2>
+                    </div>
+
+                    <div class="keyboard-head-actions">
+                        <div class="keyboard-legend compact">
+                            <span><i class="legend-dot available"></i> livre</span>
+                            <span><i class="legend-dot correct"></i> certa</span>
+                            <span><i class="legend-dot wrong"></i> errada</span>
+                            <span><i class="legend-dot blocked"></i> bloqueada</span>
+                        </div>
+                        <button id="btn-toggle-teclado" class="secondary-button">Mostrar teclado</button>
+                    </div>
+                </div>
+
+                <div id="keyboard-shell" class="keyboard-shell hidden">
+                    <div id="alfabeto-area" class="keyboard-computer"></div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <div id="modal-pergunta" class="modal hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-card panel">
+            <p id="modal-origem" class="modal-origin">Evento</p>
+            <h2 id="texto-pergunta">Pergunta</h2>
+            <p id="dica-pergunta" class="modal-tip"></p>
+
+            <div id="resposta-texto-area" class="answer-area hidden">
+                <input id="input-resposta-pergunta" type="text" placeholder="Digite sua resposta">
+                <button id="btn-enviar-resposta">Responder</button>
+            </div>
+
+            <div id="resposta-vf-area" class="answer-area vf-layout hidden">
+                <button id="btn-verdadeiro" class="vf-btn secondary-button">Verdadeiro</button>
+                <button id="btn-falso" class="vf-btn secondary-button">Falso</button>
+            </div>
+
+            <div id="resposta-alternativas-area" class="alt-grid hidden"></div>
+            <button id="btn-fechar-modal" class="modal-close hidden">Fechar</button>
+        </div>
+    </div>
+
+    <div id="endgame-overlay" class="endgame-overlay hidden">
+        <div class="panel endgame-card">
+            <p id="endgame-kicker" class="section-kicker">Fim</p>
+            <h2 id="endgame-title">Resultado da rodada</h2>
+            <p id="endgame-text"></p>
+            <button id="btn-reiniciar-overlay" class="reset-button">Jogar novamente</button>
+        </div>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <script>
+    window.API_URL = "{{ api_url }}";
+    window.TEMPO_DIABINHO = {{ tempo_diabinho }};
+    window.DURACAO_TRANSICAO = {{ duracao_transicao }};
+</script>
+    <script type="module" src="/static/js/game.js"></script>
+</body>
+</html>

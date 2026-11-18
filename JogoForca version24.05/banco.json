@@ -1,0 +1,608 @@
+{
+    "palavras": {
+        "tecnologia": [
+            "python",
+            "java",
+            "linux",
+            "mouse",
+            "tela",
+            "funcao",
+            "classe",
+            "objeto",
+            "rede",
+            "nuvem",
+            "api",
+            "docker",
+            "github",
+            "kernel",
+            "codigo",
+            "login",
+            "senha",
+            "virus",
+            "cache",
+            "pixel",
+            "fonte",
+            "link",
+            "site",
+            "dado",
+            "upload",
+            "email",
+            "app",
+            "bug",
+            "chip",
+            "wifi"
+        ],
+        "games": [
+            "mario",
+            "zelda",
+            "sonic",
+            "kirby",
+            "halo",
+            "tetris",
+            "pacman",
+            "pokemon",
+            "pikachu",
+            "luigi",
+            "bowser",
+            "portal",
+            "roblox",
+            "diablo",
+            "skyrim",
+            "yoshi",
+            "toad",
+            "samus",
+            "link",
+            "peach",
+            "wario",
+            "donkey",
+            "metroid",
+            "galaga",
+            "contra",
+            "pong",
+            "atari",
+            "sega",
+            "xbox",
+            "gamer"
+        ],
+        "filmes": [
+            "matrix",
+            "avatar",
+            "batman",
+            "superman",
+            "joker",
+            "ironman",
+            "thor",
+            "hulk",
+            "hobbit",
+            "gandalf",
+            "rocky",
+            "robocop",
+            "godzilla",
+            "rambo",
+            "alien",
+            "predador",
+            "cyborg",
+            "jaws",
+            "gremlins",
+            "willow",
+            "spawn",
+            "blade",
+            "logan",
+            "deadpool",
+            "pantera",
+            "aquaman",
+            "flash",
+            "shazam",
+            "venom",
+            "morbius"
+        ]
+    },
+    "perguntas_anjinho": {
+        "tecnologia": [
+            {
+                "pergunta": "Qual linguagem de programação usa indentação obrigatória como parte da sintaxe?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Java",
+                    "B": "C++",
+                    "C": "Python",
+                    "D": "PHP",
+                    "E": "Ruby"
+                },
+                "resposta": "C",
+                "dica": "É uma das linguagens mais populares para iniciantes."
+            },
+            {
+                "pergunta": "O que significa a sigla HTML?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "HyperText Markup Language",
+                    "B": "HighText Machine Language",
+                    "C": "HyperText Modern Links",
+                    "D": "HyperType Markup Language",
+                    "E": "Hyperlink and Text Markup Language"
+                },
+                "resposta": "A",
+                "dica": "É a linguagem usada para estruturar páginas da web."
+            },
+            {
+                "pergunta": "Qual destas opções melhor descreve o que é um banco de dados?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Um programa para criar apresentações",
+                    "B": "Um sistema para armazenar e organizar dados",
+                    "C": "Um tipo de processador",
+                    "D": "Um cabo de rede",
+                    "E": "Um sistema operacional"
+                },
+                "resposta": "B",
+                "dica": "Pense em onde ficam guardadas as informações de um sistema."
+            },
+            {
+                "pergunta": "Qual empresa criou o sistema operacional Android?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Apple",
+                    "B": "Microsoft",
+                    "C": "Google",
+                    "D": "Samsung",
+                    "E": "Sony"
+                },
+                "resposta": "C",
+                "dica": "É a mesma empresa do buscador mais usado do mundo."
+            },
+            {
+                "pergunta": "Como se chama o processo de encontrar e corrigir erros em um código?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Compilação",
+                    "B": "Refatoração",
+                    "C": "Depuração",
+                    "D": "Execução",
+                    "E": "Documentação"
+                },
+                "resposta": "C",
+                "dica": "Em inglês chama-se debugging."
+            },
+            {
+                "pergunta": "O que é uma variável em programação?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Um tipo de loop",
+                    "B": "Um espaço na memória que armazena um valor",
+                    "C": "Uma função matemática",
+                    "D": "Um arquivo de configuração",
+                    "E": "Um servidor remoto"
+                },
+                "resposta": "B",
+                "dica": "Pense nela como uma caixinha onde você guarda informações."
+            },
+            {
+                "pergunta": "Qual destas palavras está grafada corretamente?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Programassão",
+                    "B": "Programação",
+                    "C": "Programacão",
+                    "D": "Programaçao",
+                    "E": "Programassao"
+                },
+                "resposta": "B",
+                "dica": "Palavra com Ç e til no Ã."
+            },
+            {
+                "pergunta": "O que significa CPU?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Central Processing Unit",
+                    "B": "Computer Power Usage",
+                    "C": "Core Processor Unit",
+                    "D": "Central Program Unit",
+                    "E": "Compact Processing Unit"
+                },
+                "resposta": "A",
+                "dica": "É o 'cérebro' do computador."
+            }
+        ],
+        "games": [
+            {
+                "pergunta": "Em qual jogo o personagem principal chama-se Link?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Metroid",
+                    "B": "Kirby",
+                    "C": "The Legend of Zelda",
+                    "D": "Mega Man",
+                    "E": "Castlevania"
+                },
+                "resposta": "C",
+                "dica": "Muita gente acha que o protagonista se chama pelo nome do título, mas não é bem assim."
+            },
+            {
+                "pergunta": "Qual empresa criou o personagem Sonic?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Nintendo",
+                    "B": "Capcom",
+                    "C": "Konami",
+                    "D": "Sega",
+                    "E": "Atari"
+                },
+                "resposta": "D",
+                "dica": "Era a grande rival da Nintendo nos anos 90."
+            },
+            {
+                "pergunta": "Em Minecraft, qual material é necessário para fazer uma picareta de diamante?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Ferro e madeira",
+                    "B": "Diamante e pau",
+                    "C": "Ouro e ferro",
+                    "D": "Diamante e pedra",
+                    "E": "Esmeralda e ferro"
+                },
+                "resposta": "B",
+                "dica": "Você precisa de 3 gemas e 2 paus."
+            },
+            {
+                "pergunta": "O jogo Pac-Man foi criado por qual empresa japonesa?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Nintendo",
+                    "B": "Konami",
+                    "C": "Namco",
+                    "D": "Capcom",
+                    "E": "Sega"
+                },
+                "resposta": "C",
+                "dica": "A empresa depois se fundiu com a Bandai."
+            },
+            {
+                "pergunta": "Como se chama o irmão de Mario?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Wario",
+                    "B": "Waluigi",
+                    "C": "Toad",
+                    "D": "Luigi",
+                    "E": "Koopa"
+                },
+                "resposta": "D",
+                "dica": "É geralmente representado com a cor verde."
+            },
+            {
+                "pergunta": "Qual é o tipo do Pokémon Charmander?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Água",
+                    "B": "Grama",
+                    "C": "Elétrico",
+                    "D": "Fogo",
+                    "E": "Normal"
+                },
+                "resposta": "D",
+                "dica": "Tem uma chama na ponta do rabo."
+            },
+            {
+                "pergunta": "Em qual jogo o jogador constrói e sobrevive em um mundo de blocos?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Roblox",
+                    "B": "Terraria",
+                    "C": "Minecraft",
+                    "D": "Fortnite",
+                    "E": "Valheim"
+                },
+                "resposta": "C",
+                "dica": "Foi criado por Markus Persson, o Notch."
+            },
+            {
+                "pergunta": "Qual franquia de jogos é famosa pela frase 'It's dangerous to go alone'?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Pokémon",
+                    "B": "The Legend of Zelda",
+                    "C": "Final Fantasy",
+                    "D": "Dark Souls",
+                    "E": "Metroid"
+                },
+                "resposta": "B",
+                "dica": "Essa frase é do primeiro jogo da franquia, para NES."
+            }
+        ],
+        "filmes": [
+            {
+                "pergunta": "Em qual cidade se passa a maior parte do filme Batman (1989)?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Metrópolis",
+                    "B": "Nova York",
+                    "C": "Gotham City",
+                    "D": "Chicago",
+                    "E": "Star City"
+                },
+                "resposta": "C",
+                "dica": "É uma cidade fictícia associada ao Cavaleiro das Trevas."
+            },
+            {
+                "pergunta": "Qual ator interpretou o Homem de Ferro na fase inicial do MCU?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Chris Evans",
+                    "B": "Chris Hemsworth",
+                    "C": "Robert Downey Jr.",
+                    "D": "Mark Ruffalo",
+                    "E": "Jeremy Renner"
+                },
+                "resposta": "C",
+                "dica": "Ficou famoso pela frase 'I am Iron Man'."
+            },
+            {
+                "pergunta": "Em Jurassic Park, qual empresa criou os dinossauros clonados?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "BioSyn",
+                    "B": "InGen",
+                    "C": "Umbrella",
+                    "D": "Cyberdyne",
+                    "E": "Weyland-Yutani"
+                },
+                "resposta": "B",
+                "dica": "É uma empresa fictícia de biotecnologia."
+            },
+            {
+                "pergunta": "Qual é o nome do personagem principal de Matrix?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Morpheus",
+                    "B": "Trinity",
+                    "C": "Neo",
+                    "D": "Agent Smith",
+                    "E": "Tank"
+                },
+                "resposta": "C",
+                "dica": "Seu nome verdadeiro no filme é Thomas Anderson."
+            },
+            {
+                "pergunta": "Em qual filme aparece o robô exterminador T-800?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "RoboCop",
+                    "B": "I, Robot",
+                    "C": "Blade Runner",
+                    "D": "Terminator",
+                    "E": "Transformers"
+                },
+                "resposta": "D",
+                "dica": "O filme foi dirigido por James Cameron."
+            },
+            {
+                "pergunta": "Qual palavra está grafada corretamente?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Cenográfia",
+                    "B": "Cenografia",
+                    "C": "Scenografia",
+                    "D": "Cenografiia",
+                    "E": "Ssenografia"
+                },
+                "resposta": "B",
+                "dica": "Palavra derivada do grego, sem acento e com C."
+            },
+            {
+                "pergunta": "O filme Inception foi dirigido por qual cineasta?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Steven Spielberg",
+                    "B": "James Cameron",
+                    "C": "Christopher Nolan",
+                    "D": "Ridley Scott",
+                    "E": "Zack Snyder"
+                },
+                "resposta": "C",
+                "dica": "O mesmo diretor de Interstellar e The Dark Knight."
+            },
+            {
+                "pergunta": "Em Gladiator, qual é o nome do personagem principal interpretado por Russell Crowe?",
+                "tipo": "alternativas",
+                "alternativas": {
+                    "A": "Commodus",
+                    "B": "Marcus Aurelius",
+                    "C": "Maximus",
+                    "D": "Proximo",
+                    "E": "Juba"
+                },
+                "resposta": "C",
+                "dica": "Ele era um general do exército romano."
+            }
+        ]
+    },
+    "perguntas_diabinho": {
+        "tecnologia": [
+            {
+                "pergunta": "Linux é um sistema operacional. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Frontend está ligado à parte visual do sistema. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Uma API serve apenas para criar imagens. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Docker é usado para trabalhar com containers. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Python é uma linguagem de programação compilada. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Um servidor é um computador que fornece serviços a outros computadores. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "GitHub é uma plataforma para hospedar e versionar código. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "O kernel é a camada mais externa de um sistema operacional. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "CSS é usado para estilizar páginas HTML. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Um algoritmo pode ser executado apenas em computadores. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Firebase é um serviço de banco de dados em nuvem da Google. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Backend lida exclusivamente com o design visual de uma aplicação. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            }
+        ],
+        "games": [
+            {
+                "pergunta": "Minecraft é um jogo focado em construção e sobrevivência. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Zelda é uma franquia criada pela Sega. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Tetris é famoso por peças que se encaixam em linhas. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Pikachu é um personagem da franquia Pokémon. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Mario é um personagem criado pela Nintendo. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Dark Souls é conhecido por ser um jogo de plataforma simples. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Fortnite é um jogo do gênero battle royale. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Sonic é o mascote oficial da Nintendo. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Pac-Man é um dos jogos de arcade mais icônicos da história. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Overwatch é um jogo de tiro em primeira pessoa da Blizzard. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "No jogo Portal, a protagonista se chama Chell. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Diablo é um jogo de corrida de carros. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            }
+        ],
+        "filmes": [
+            {
+                "pergunta": "Matrix é um filme de ficção científica. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Batman pertence ao universo principal da Marvel. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Interstellar envolve viagens espaciais. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Thor é um personagem da DC Comics. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "O filme Avatar foi dirigido por James Cameron. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Godzilla é originalmente um personagem criado no Japão. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "O personagem Joker é um vilão da Marvel Comics. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Em Jurassic Park, os dinossauros foram criados a partir de DNA preservado. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "O filme Hobbit é baseado em um livro de J.R.R. Tolkien. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "RoboCop se passa em uma versão futurista de Nova York. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Em Rocky, o protagonista é um boxeador. Verdadeiro ou falso?",
+                "resposta": "v",
+                "tipo": "vf"
+            },
+            {
+                "pergunta": "Gandalf é um personagem da franquia Star Wars. Verdadeiro ou falso?",
+                "resposta": "f",
+                "tipo": "vf"
+            }
+        ]
+    }
+}
